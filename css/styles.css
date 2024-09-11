@@ -1,0 +1,574 @@
+/* RESET  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav BAR */
+
+.navbar{
+    height: 80px;
+    margin: 5px;
+    border-radius: 16px;
+    padding: 0.2rem;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: #FFCC29;
+    font-size: 24px;
+}
+
+.navbar-brand:hover{
+    color: #FFCC29;
+    background-color: #FFCC29;
+    transition: 0.80s;
+    border-radius: 20px;
+}
+
+.login-button {
+    background-color:#FFCC29 ; 
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.login-button:hover{
+ background-color: #ffcd29e2
+}
+
+
+.navbar-toggler-icon{
+    background-color: #FFCC29;
+    border-radius: 20px;
+
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+    ;
+}
+
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.nav-item{
+    font-weight: 500;
+
+}
+
+.nav-item:hover{
+    background-color: #ffcd29e2;
+    border-radius: 50px;
+    transition: 1.5s;
+
+}
+
+/* Nav section ends */
+
+
+
+/*  Estilos de Mobile starts */
+
+
+/* Main page */
+
+main{
+    min-height: 100vh;
+    background-image: url(../img/ronnie-coleman.gif.png);
+    position: absolute  ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+}
+
+main::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.main-content{
+    position: relative;
+    color: whitesmoke;
+}
+
+
+/* Main page ends */
+
+/* Index */
+.titulo-main{
+    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+   position: relative;  
+   padding: 5.2rem;
+   text-shadow: 10px 5px  8px  black;
+   font-size: 1.8rem;
+    font-family: "Ultra", serif;
+    font-style: normal;
+  }
+  
+.parrafo{
+    align-content: center;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+.imagen-gorila{
+    height: 200px;
+    width: 200px;
+    margin-left: 10rem;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imagen-gorila:hover{
+   box-shadow: #000000 2px 1px 4.3px 4px ;
+   transition: 0.6s;
+}
+
+
+  /* Products  */
+
+.Products .box-container{
+
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+position: relative;
+padding-inline-end: 1px;
+
+}
+
+.Products .box-container .box{
+    
+    position: relative;
+    padding: 2px;
+}
+
+.Products .box-container .box .imagen{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+
+}
+
+.Products .box-container .box .imagen img{
+    height: 20rem;
+}
+
+
+.Products .box-container .box .icon a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+    background: var(--yellow);
+    color: #FFCC29;
+}
+
+
+.Products .box-container .box .icon .cart-btn{
+border: 0.4rem solid black;
+    margin-left: 6rem;
+    border-radius: 15px;
+    border-color: #FFCC29;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.Products .box-container .box .icon .cart-btn2{
+    margin-left: 6rem;
+}
+   
+
+  .creatine{
+    max-width: 210px;
+    margin-top: 100px;
+    margin-left: 80px;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+
+.protein{
+    max-width: 350px;
+    margin-left: 100px;
+    position: relative;
+}
+
+
+/* carrito (comprar) */
+
+.text-carro{
+    height: 30%;
+    width: 30%;
+    color: #FFCC29;
+    
+}
+
+.buy{
+    margin-left: 350px;
+    
+    padding: 40px 2px;
+    color: #FFCC29;
+}
+.vencimiento{
+    margin-right: 50px;
+    color: #FFCC29;
+}
+
+.box-buy{
+    background-color: rgb(58, 58, 58);
+    margin-right: 700px;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px black;
+}
+
+/* comprar section ends */
+
+/* About-us section starts */
+
+.mapa{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.encontrar{
+    padding-top: 6rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 2rem;
+    color: #FFCC29;
+      text-shadow: #000000 10px 10px 6px ;
+    box-sizing: border-box ;
+    position: relative;
+}
+
+.Au{
+    color: #FFCC29;
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    font-size: small;
+    padding: 20px;
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-right: 15px;
+    position: relative;
+      
+}
+
+/* Footer styles starts */
+
+footer{
+    background-color: #000000;
+    color: whitesmoke;
+    height: 3rem;
+}
+
+/* footer styles ends */
+ 
+/* estilos de mobile ends */
+
+
+
+
+/* estilos para tablet */
+
+@media screen and (min-width:600px) {
+
+
+/* estilos de la imagen de gorila del index */
+
+.imagen-gorila{
+height: 200px;
+width: 200px;
+margin-left: 50%;
+position: relative;
+border-radius: 20px;
+align-items: center;
+margin-bottom: 10px;
+align-items: center;
+}
+
+
+
+/* estilos de products */
+    .Products .box-container{
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.Products .box-container .box .icon a:hover{
+    height: 5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    width: 40%;
+
+   background: #ffcd29e2;
+    color: #000000;
+    transition: 0.8s;
+
+
+}
+}
+
+
+/* estilos desktop starts */
+@media screen and (min-width:1200px){
+
+       .imagen{
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+     
+    }
+
+
+    .box .cart-btn{
+        display: flex;
+        flex-direction: row;
+        background-color: #FFCC29;
+        margin-top: 300px;
+        align-items: center;
+        
+
+        
+    }
+
+
+    .box .cart-btn3{
+        margin-top: 250px;
+    }
+    
+    .Products .box-container .box .icon a{
+        height: 5rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        width: 40%;
+        background: var(--yellow);
+        color: #FFCC29;
+    }
+    
+
+.Products .box-container .box .icon a:hover{
+        height: 5rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        width: 40%;
+    
+    background: #ffcd29e2;
+        color: #000000;
+        transition: 0.8s;
+    }
+
+   .imagen-2{
+    margin-top: 40px;
+   }
+
+
+   .imagen-gorila{
+    height: 200px;
+    width: 200px;
+    margin-left: 45%;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+/* estilos de contact us */
+.contact-form {
+    background-color: #181818; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    margin-left: 450px;
+   margin-top: 120px;
+   box-shadow: #f7df8efd 2px 5px 20px 4px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+.contact-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #FFCC29;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #cccccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFCC29; /* Botón azul */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c19c21e2; 
+transition: 0.8s;
+
+}
+}
+
+/* estilos desktop ends */
+
+
+
+/* Estilos de la caja de compra */
+.purchase-box {
+    background-color: #141414; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    margin-left: 28em;
+    margin-top: 6em;
+    box-shadow: #f7df8efd 2px 5px 20px 4px;
+}
+
+.purchase-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFCC29; /* Color de título */
+}
+
+.purchase-box label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #FFCC29;
+}
+
+.purchase-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color:#FFCC29;
+}
+
+
+
+.purchase-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFCC29; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.purchase-box button:hover {
+    background-color: #c19c21e2;
+}
+
+/* Tutores , tuve que recurrir a hacer este apartado para la parte de compra,(se que no es correcto) pero
+ tuve un error y no supe como solucionarlo ,
+ mil disculpas  */
+
+/* Estilos responsivos */
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    
+.purchase-box {
+        max-width: 600px;
+        padding: 30px;
+        position: absolute ;
+        margin-left: 120px;    
+        box-shadow: #f7df8efd 2px 5px 20px 4px;
+    }
+
+
+}
+
+
+
+/* apartado Para móviles */
+
+
+@media (max-width: 767px) {
+   
+.purchase-box {
+        max-width: 100%;
+        padding: 15px;
+        position: absolute;
+        margin-left: 2px;
+        box-shadow: #f7df8efd 2px 5px 20px 4px;
+        
+
+    }
+
+    .purchase-box h2 {
+        font-size: 24px;
+    }
+
+
+}
